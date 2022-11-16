@@ -1,0 +1,20 @@
+.bottomNavigation{
+    margin-top: 2em;
+    padding-left: 9.5em;
+    padding-right: 9.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #c51230;
+    color:white;
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none !important;
+    color: #D3D3D3;
+}
+.link:hover{
+    color:#FFFFFF;
+}

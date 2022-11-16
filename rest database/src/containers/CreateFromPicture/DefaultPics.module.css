@@ -1,0 +1,13 @@
+.headline{
+    margin-top:1.5em;
+    color: #c51230;
+    font-style: italic;
+}
+
+.row{
+    margin-top:5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap:10px 20px;
+}

@@ -1,0 +1,76 @@
+.topRedBar{
+    background-color: #c51230;
+    padding-top: 1em;
+}
+
+.topRedBarText{
+    visibility:hidden;
+}
+
+.headTitle{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left:10em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    align-items: center;
+}
+
+.logo{
+    padding-right: 4em;
+}
+
+.companyName{
+    padding-right: 4em;
+}
+
+.cartLogo{
+    display: flex;
+    margin-left: 3em;
+    background-color: #ac2432;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    border: 3px;
+    border-radius: 0.5em; 
+    text-decoration: none !important;
+}
+
+.cartNumber{
+    font-size: 2em;
+    color: white;
+    margin-left:0.5em;
+}
+
+.topNavigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5em;
+    padding-right: 5em;
+    color: rgb(179, 0, 0);
+    list-style-type: none;
+}
+
+hr.line{
+    border: 1px solid lightgray;
+    margin:0em;
+}
+
+.cartDiv{
+    display:flex;
+}
+
+.link{
+    text-decoration: none !important;
+    color: #ac2432;
+}
+
+
+
+
+
+
+

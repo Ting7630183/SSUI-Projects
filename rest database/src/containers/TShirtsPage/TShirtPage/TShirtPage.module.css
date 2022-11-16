@@ -1,0 +1,164 @@
+.row{
+    margin-left:4em;
+    display:flex;
+}
+
+.title{
+    text-align:left;
+    margin-left:2em;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.price{
+    color: #c51230;
+    text-align:left;
+}
+
+.description{
+    color: #c51230;
+    padding-bottom: 1.5em;
+    text-align:left;
+}
+
+.first{
+    width:30%;
+}
+
+.second{
+    width:60%;
+    margin-right:2em;
+    margin-left:2em;
+}
+
+.sideDiv{
+    display:flex;
+}
+
+.selectionDiv{
+    margin-left:1em;
+}
+
+.sideText{
+    padding-top: 0.5em;
+}
+
+.frontButton{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: #c51230;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right:1em;
+    color: #D3D3D3;
+    border: solid 3px white;
+}
+
+.frontButton:hover{
+    color: #FFFFFF;
+}
+
+.backButton{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: #c51230;
+    border-radius:0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #D3D3D3;
+    border: solid 3px white;
+}
+.backButton:hover{
+    color: #FFFFFF;
+}
+
+.colorDiv{
+    display:flex;
+}
+
+.colorButton{
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #c51230;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.colorButton:hover{
+    color: #707070;
+}
+
+.colorText{
+    margin-top: 1em;
+    margin-right: 0.8em;
+}
+
+.quantityDiv{
+    display:flex;
+}
+
+.quantityText{
+    margin-top: 1.2em;
+    margin-right: 0.8em;
+}
+
+.selectButton1{
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #c51230;
+    margin-left: 1em;
+    margin-top: 1.2em;
+}
+
+.sizeDiv{
+    display:flex;
+    margin-top: 1.2em;
+}
+
+.selectButton2{
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #c51230;
+    margin-left: 1em;
+}
+
+.sizeText{
+    padding-top:0.3em;
+
+}
+
+.cartButton{
+    margin-top:0.5em;
+    padding-top:1.3em;
+    padding-bottom: 1.3em;
+    border-radius: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color: #c51230;
+    border: none;
+    color: #D3D3D3;
+}
+.cartButton:hover{
+    color: #FFFFFF;
+}
+
+.cartDiv{
+    display:flex;
+    margin-top: 1.2em;
+}
+
+
+
+
+
+

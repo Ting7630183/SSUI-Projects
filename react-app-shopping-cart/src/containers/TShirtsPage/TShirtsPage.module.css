@@ -1,0 +1,52 @@
+
+.row{
+    margin-left:4em;
+    display:flex;
+    flex-wrap: wrap;
+    gap:4em;
+}
+
+.shirtCard{
+    border: solid 3px red;
+    border-radius: 1em;
+    padding: 1em;
+    text-decoration: none !important;
+}
+
+
+.name{
+    color: #c51230;
+    margin: 1em;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.available{
+    margin: 1em;
+    text-align: left;
+    text-decoration: none !important;
+    color:rgb(25, 22, 22);
+}
+
+.button{
+    background: #c51230;
+    color: #D3D3D3;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: solid 3px white;
+    border-radius: 1em;
+    display: block;
+    margin: auto;
+}
+
+.button:hover{
+    color:#FFFFFF;
+}
+
+.title{
+    margin-left:2em;
+    margin-bottom:1em;
+    text-align: left;
+}

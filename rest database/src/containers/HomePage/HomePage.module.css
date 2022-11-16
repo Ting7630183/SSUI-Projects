@@ -1,0 +1,34 @@
+.mainPage{
+    /* padding-top: 2em; */
+    background-size: cover;
+}
+
+.notice{
+    padding-top: 2em;
+    display: flex;
+    padding-left: 10em;
+    padding-right: 10em;
+    justify-content: space-between;
+}
+
+.shippment{
+    border: solid 3px #c51230;   
+    margin-right: 2em;
+    border-radius: 5px;
+    padding: 12px 23px;
+}
+
+.design{
+    border: solid 3px #c51230; 
+    border-radius: 5px;
+    padding: 12px 23px;  
+}
+
+.firstSentence{
+    color: #c51230;
+    margin-bottom: 1em;
+    text-align:left;
+    font-size:large;
+}
+
+

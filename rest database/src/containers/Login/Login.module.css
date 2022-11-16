@@ -1,0 +1,19 @@
+.bigDiv{
+    margin-left:50em;
+    margin-top:2em;
+    display:block;
+    display: flex;
+    text-align: center;
+    line-height: 1em;
+    padding:6px;
+}
+
+.button {
+    margin-left:20em;
+    margin-top:2em;
+    padding:0.5em;
+}
+
+.image{
+    margin-right:5px;
+}

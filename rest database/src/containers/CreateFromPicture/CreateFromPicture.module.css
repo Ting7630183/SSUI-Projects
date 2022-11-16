@@ -1,0 +1,151 @@
+.row{
+    display:flex;
+}
+.secondRow {
+    display:flex;
+}
+.fistCol{
+    width:30%;
+}
+
+.secondCol{
+    width:60%;
+    margin-top:8em;
+    margin-left:8em;
+}
+
+.first{
+    margin-top:10em;
+    margin-right:5em;
+    width:30%;
+    position: relative
+}
+
+.background{
+    position: absolute;
+}
+.overlay{
+    position: absolute;
+    margin-top:7em;
+}
+
+.second{
+    margin-top:2em;
+    width:60%;
+}
+
+.input{
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    font-size:1em;
+    color:gray
+}
+
+.searchbtn{
+    padding-top:0.82em;
+    padding-bottom:0.82em;
+    padding-left:0.8em;
+    padding-right:0.8em;
+    border-radius:0px;
+    background-color: gray;
+    color:#D3D3D3;
+    border: solid 1px white;
+}
+
+.searchbtn:hover{
+    color:white;
+}
+
+
+.secondRow{
+    display:flex;
+    margin-left:7em;
+    margin-top:2em;
+}
+.firstCol{
+    margin-top:1em;
+}
+
+.price{
+    font-size:2em;
+    color: #c51230;
+    text-align:left;
+}
+
+.quantityDiv{
+    display:flex;
+}
+
+.quantityText{
+    margin-top: 1.2em;
+    margin-right: 0.8em;
+    color:gray;
+}
+
+.selectButton1{
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #c51230;
+    margin-left: 1em;
+    margin-top: 1.2em;
+}
+
+.sizeDiv{
+    display:flex;
+    margin-top: 1.2em;
+    color:gray;
+}
+
+.selectButton2{
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #c51230;
+    margin-left: 1em;
+}
+
+.sizeText{
+    padding-top:0.3em;
+}
+
+.cartButton{
+    margin-top:0.5em;
+    padding-top:1.3em;
+    padding-bottom: 1.3em;
+    border-radius: 0.5em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    background-color: lightgray;
+    border: none;
+    color: gray;
+}
+.cartButton:hover{
+    color: #FFFFFF;
+}
+
+.cartDiv{
+    display:flex;
+    margin-top: 1.2em;
+}
+
+.morebtn{
+    margin-top:0.5em;
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size:1.1em;
+    color: gray;
+    background-color: white;
+    border: solid 1px lightgrey;
+}
+
+.morebtn:hover{
+    color: black;
+}

@@ -1,0 +1,69 @@
+.quantityDiv, .colorDiv, .sizeDiv, .priceDiv, .row{
+    display:flex;
+}
+
+.removeButton{
+    margin-top:0.5em;
+    padding-top:1em;
+    padding-bottom: 1em;
+    border-radius: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #c51230;
+    border: none;
+    color: #D3D3D3;
+}
+
+.removeButton:hover{
+    color: #FFFFFF;
+}
+
+.colorDiv, .quantityDiv, .sizeDiv, .priceDiv{
+    margin-bottom:1em;
+}
+
+.right{
+    margin-left: 4em;
+    position: relative;
+    top:50%;
+    padding-top:6.5em;
+}
+
+.left{
+    width:40%;
+}
+
+hr.line{
+    border: 1px solid #c51230;
+}
+
+.name{
+    text-align: left;
+}
+
+.color, .size, .price{
+    color:#c51230;
+    margin-left:0.7em;
+}
+
+.left{
+    position: relative;
+    width:35%;
+}
+
+.back{
+    position: absolute;
+}
+
+.overlay{
+    position: absolute;
+    margin-top:4em;
+}
+
+
+
+
+
+
+
+

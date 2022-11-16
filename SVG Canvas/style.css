@@ -1,0 +1,268 @@
+.page{
+    display: flex;  
+}
+
+.palette{
+    width:20%;
+    border: 2px solid gray;  
+    margin-left:40px; 
+    margin-top:20px; 
+}
+/*overlay svg and canvas */
+.workspace{
+    margin-top:20px; 
+    width:50%;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    position: relative
+}
+
+.temp-canvas,
+.workarea-canvas,
+.workarea-svg{
+    position: absolute;
+    top:0;
+    left:0%;
+    width: 100%;
+    height: 100%;
+}
+
+.workarea-svg{
+    z-index: 10;
+}
+
+
+/* .workarea-canvas{
+    position: absolute;
+}
+
+.temp-canvas{
+    position: absolute;
+}
+
+.workarea-svg{
+    position: absolute;
+} */
+
+
+
+.layer{
+    margin-left: 30px;
+    margin-top:20px;
+}
+
+.mode{
+    margin-left: 30px;
+    margin-top:30px;
+}
+
+.border-color{
+    margin-left: 30px;
+    margin-top:30px;
+}
+.boarder-width{
+    margin-left: 30px;
+    margin-top:30px;
+}
+
+.fill-color-container{
+    margin-left: 30px;
+    margin-top:30px;
+}
+
+.delete{
+    margin-left: 30px;
+    margin-top:30px;
+    margin-bottom: 40px;
+}
+
+.mode_selection{
+    display: flex;
+}
+
+.layer-title{
+    padding-bottom: 15px;
+}
+
+.mode-title{
+    padding-bottom: 15px;
+}
+
+.border-color-title{
+    padding-bottom: 15px;
+}
+
+.border-width-title{
+    padding-bottom: 15px;
+}
+
+.fill-color-title{
+    padding-bottom: 15px;
+}
+
+.delete-title{
+    padding-bottom: 15px;
+}
+
+.mode_selection{
+    display: flex;
+    justify-content:flex-start;
+    /* justify-content: space-around; */
+    padding-right:15px;
+}
+
+/* .mode-button{
+    background-image: url('assets/cursor.png');
+
+} */
+#arrow_mode{
+    padding:8px;
+    border: none;
+    /* background-image: url('assets/cursor.png'); */
+    background-color: white;
+
+}
+#line_mode{
+    padding:8px;
+    background-color: white;
+    border: none; 
+}
+
+
+#rectange_mode{
+    border-radius: 2px;
+    padding: 10px 15px;
+    border: solid black 2px;
+    background-color: lightgreen;
+    
+}
+
+.arrow-parent{
+    margin-right:20px;  
+    /* background-image: url('assets/cursor.png');  */
+}
+
+.rectange-parent{
+    padding:2px 5px 5px 4px;
+    margin-right:20px;
+}
+
+.circle-parent{
+    padding:2px 5px 5px 4px;
+}
+
+#circle_mode{
+    padding:10px 15px;
+    border-radius: 60%;
+    border: solid black 2px;
+    background-color: lightgreen;
+}
+
+#color-white1,#color-gray1,#color-black1, #color-yellow1, #color-red1, #color-blue1, #color-green1{
+    padding:12px 16px;
+}
+
+#color-white2,#color-gray2,#color-black2, #color-yellow2, #color-red2, #color-blue2, #color-green2{
+    padding:12px 16px;
+}
+
+.lightgray-parent1, .white-parent1, .black-parent1, .yellow-parent1, .red-parent1, .blue-parent1, .green-parent1{
+    margin-right:10px;
+    padding: 1px 5px 5px 5px;
+}
+.lightgray-parent2, .white-parent2, .black-parent2, .yellow-parent2, .red-parent2, .blue-parent2, .green-parent2{
+    margin-right:10px;
+    padding: 1px 5px 5px 5px;
+}
+
+/* .black-parent1, .green-parent2{
+    border-width: "2px";
+    border: solid blue 2px;
+    border-radius: 10%;
+} */
+
+.color-line-one{
+    display: flex;
+    justify-content: space-around;
+    padding-right:15px;
+    margin-bottom: 10px;
+}
+
+.color-line-two{
+    display: flex;
+    justify-content: space-around;
+    padding-right:15px;
+    margin-bottom: 15px;
+}
+
+#color-none1, #color-none2{
+    /* padding-top:3px;
+    padding-bottom:1px; */
+    background-color: white;
+    border:none;
+}
+
+#color-white1, #color-white2{
+    background-color: white;
+    border: solid 1px lightgray; 
+}
+
+#color-gray1, #color-gray2{
+    background-color:lightgray;
+    border:none;
+}
+
+#color-black1, #color-black2{
+    background-color: black;
+    border:none;
+}
+
+#color-yellow1, #color-yellow2{
+    background-color: yellow;
+    border:none;
+}
+
+#color-red1, #color-red2{
+    background-color: red;
+    border:none;
+}
+
+#color-blue1, #color-blue2{
+    background-color: lightblue;
+    border:none;
+}
+
+#color-green1, #color-green2{
+    background-color: lightgreen;
+    border:none;
+}
+
+.slider-and-number{
+    display:flex;
+}
+
+.slider-number{
+    padding-left:25px;
+}
+
+.delete-button{
+    margin-right: 25px;
+}
+
+/*overlay svg with canvas */
+/* .workspace{
+    position: relative;
+} */
+/* .workarea-canvas{
+    position: absolute;
+}
+
+.temp-canvas{
+    position: absolute;
+}
+
+.workarea-svg{
+    position: absolute;
+} */
+

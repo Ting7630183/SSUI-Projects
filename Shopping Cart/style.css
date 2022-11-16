@@ -1,0 +1,304 @@
+.head-title{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left:10em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    align-items: center;
+}
+
+.cart-number{
+    font-size: 2em;
+    color: white;
+    margin-left:0.5em;
+}
+
+.logos{
+    padding-right: 2em;
+}
+
+.cart-logo{
+    display: flex;
+    margin-left: 3em;
+    background-color: #ac2432;
+    padding-left:0.5em;
+    padding-right:0.5em;
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    border: 3px;
+    border-radius: 0.5em;
+    
+}
+
+.top-red-bar{
+    background-color: red;
+    padding-top: 1em;
+}
+
+.top-red-bar-text{
+    visibility:hidden;
+}
+
+.top-navigation{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1em;
+    color: rgb(179, 0, 0);
+}
+
+.main-page{
+    padding-top: 2em;
+    background-size: cover;
+}
+
+.notices{
+    padding-top: 2em;
+    display: flex;
+    padding-left: 10em;
+    padding-right: 10em;
+    justify-content: space-between;
+}
+
+.shippment{
+    border: solid 3px red;   
+    margin-right: 2em;
+    border-radius: 5px;
+    padding: 12px 23px;
+}
+
+.design{
+    border: solid 3px red; 
+    border-radius: 5px;
+    padding: 12px 23px;  
+}
+
+.first-sentence{
+    color: red;
+    margin-bottom: 1em;
+}
+
+.bottom-navigation{
+    margin-top: 2em;
+    padding-left: 9.5em;
+    padding-right: 9.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color:white;
+}
+
+.not-implement{
+    text-align: center;
+}
+.T-shirts, .Create-from-picutre, .Create-Your-Own, .About-Us, .Log-in{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em; 
+}
+
+.T-shirts, .Create-from-picutre, .Create-Your-Own, .About-Us, .Log-in {
+    display: inline-block;
+    position: relative;
+    color: #c51230;
+  }
+  
+  .T-shirts:after, .Create-from-picutre:after, .Create-Your-Own:after, .About-Us:after, .Log-in:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 2px;
+    background-color: #c51230;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .T-shirts:hover:after,.Create-from-picutre:hover:after, .Create-Your-Own:hover:after, .About-Us:hover:after, .Log-in:hover:after  {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+#link:link{
+    color:#c51230 !important;
+    text-decoration: none !important;
+}
+
+#link:visited{
+    color:#c51230 !important;
+    text-decoration: none !important;
+}
+
+.cart-number{
+    text-decoration: none !important;
+}
+
+#bottom-link{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 0.5em;
+}
+#bottom-link:link{
+    text-decoration: none;
+    color:white;
+}
+
+#bottom-link:visited{
+    text-decoration: none;
+    color:white;
+}
+
+#bottom-link:hover{
+    color:blanchedalmond;
+}
+
+#shirt-list{
+    display:flex;
+    flex-wrap: wrap;
+    gap:0.5em;
+}
+
+.product-h1{
+    margin-top: 2em;
+}
+
+.product-main{
+    margin-left: 4em;  
+}
+
+#shirt-detail{
+    margin-top: 1em;
+    margin-left: 4em; 
+}
+
+.shirtDive{
+    border: solid 3px red;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+.nameDive{
+    color: #c51230;
+    margin: 1em;
+    font-size: 1.2em;
+}
+
+.availabeDiv{
+    margin: 1em;
+}
+
+.buttonDiv{
+    margin: 1em;
+    background: #c51230;
+    color: #D3D3D3;
+    padding: 1em;
+    border: solid 3px white;
+    border-radius: 1em;
+}
+
+.buttonDiv:hover{
+    color:#FFFFFF;
+}
+
+
+.selectionDiv{
+    margin-left: 3em;
+    margin-right: 2em;
+}
+
+.priceDiv{
+    color: #c51230;
+}
+
+.llustrationDiv{
+    color: #c51230;
+    padding-bottom: 1.5em;
+}
+
+.selectionDiv{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.sideDiv{
+    display: flex;
+}
+
+.frontButton{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: #c51230;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right:1em;
+    color: #D3D3D3;
+    border: solid 3px white;
+}
+.frontButton:hover{
+    color: #FFFFFF;
+}
+
+.backButton{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background: #c51230;
+    border-radius:0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    color: #D3D3D3;
+    border: solid 3px white;
+}
+.backButton:hover{
+    color: #FFFFFF;
+}
+
+
+.colorDiv{
+    display:flex;
+}
+
+.colortextDiv{
+    margin-top: 1em;
+}
+
+.colorButton{
+    padding-top:0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: solid 1px #c51230;
+    margin-left: 1em;
+    margin-top: 1em;
+}
+.colorButton:hover{
+    color: #707070;
+}
+
+
+.contentDiv{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <!-- turn off pinch zoom https://stackoverflow.com/questions/37379694/javascript-how-to-stop-pinch-zoom-multi-touch-input-attacks -->
+    <link rel="stylesheet" href="style.css" />
+    <title>HW3 SSUI</title>
+    
+  </head>
+  <!-- you should not need to edit this file for HW2, except to test different numbers of divs -->
+  <body>
+    <!-- your code should work for any number of divs -->
+    <div id="body">
+      <div class="page">
+        <div class="palette" >
+          <div class="layer">
+            <div class="layer-title"><b>Layers:</b></div>
+          
+              <div>
+                <input type="radio" id="canvas_layer" name="layer"  value="canvas"> Show Canvas Layer
+              </div>
+  
+              <div>
+                <input type="radio" id="svg_layer" name="layer"  value="svg" checked="checked"> Show SVG Layer 
+              </div>
+  
+              <div>
+                <input type="radio" id="both_layer" name="layer"  value="both"> Show Both Layer
+              </div>   
+          </div>
+  
+          <div class="mode">
+            <div class="mode-title"><b>Mode:</b></div>
+            <div class="mode_selection">
+              
+              <div class="arrow-parent">
+                <input type="button" id="arrow_mode" class="mode-button" value="cursor"></button>
+              </div>
+
+              <!-- <div class="line-parent">
+                <input id="line_mode" class="mode-button" value="line"></button>
+              </div> -->
+
+              <div class="rectange-parent">
+                <button id="rectange_mode" class="mode-button" value="rect"></button>
+              </div>
+
+              <div class="circle-parent">
+                <button id="circle_mode" class="mode-button" value="circle"></button>
+              </div> 
+
+
+
+            </div>
+          </div>
+  
+          <div class="border-color">
+            <div class="border-color-title"><b>Border color:</b></div>
+              <div class="color-line-one"> 
+
+                <div class="none-parent1">
+                  <button id="color-none1" class="boarder-color" value="none">None</button>
+                </div>
+                
+                <div class="white-parent1">
+                  <button id="color-white1" class="boarder-color" value = "white"></button>
+                </div>
+
+                <div class="lightgray-parent1">
+                  <button id="color-gray1" class="boarder-color" value = "lightgray"></button>
+                </div>
+
+                <div class="black-parent1">
+                  <button id="color-black1" class="boarder-color" value="black"></button>
+                </div>
+              </div>
+  
+              <div class="color-line-two">
+                <div class="yellow-parent1">
+                  <button id="color-yellow1" class="boarder-color" value="yellow"></button>
+                </div>
+
+                <div class="red-parent1">
+                  <button id="color-red1" class="boarder-color" value="red"></button>
+                </div>
+
+                <div class="blue-parent1">
+                  <button id="color-blue1" class="boarder-color" value="lightblue"></button>
+                </div>
+
+                <div class="green-parent1">
+                  <button id="color-green1" class="boarder-color" value="lightgreen"></button>
+                </div> 
+              </div>
+          </div>
+  
+          <div class="boarder-width"> 
+            <div class="border-width-title"><b>Border width:</b></div>
+
+            <div class="slider-and-number">
+              <div class="range-slider">
+                <input class="slider" type="range" min="1" max="30" value="3">
+              </div>
+              <div class="slider-number"><b>3</b></div>
+            </div>
+            
+          </div>
+  
+          <div class="fill-color-container">
+            <div class="fill-color-title"><b>Fill color:</b></div>
+            <div class="color-line-one"> 
+
+              <div class="none-parent2">
+                <button id="color-none2" class="fill-color" value="none">None</button>
+              </div>
+              
+              <div class="white-parent2">
+                <button id="color-white2" class="fill-color" value = "white"></button>
+              </div>
+
+              <div class="lightgray-parent2">
+                <button id="color-gray2" class="fill-color" value = "lightgray"></button>
+              </div>
+
+              <div class="black-parent2">
+                <button id="color-black2" class="fill-color" value="black"></button>
+              </div>
+            </div>
+
+            <div class="color-line-two">
+              <div class="yellow-parent2">
+                <button id="color-yellow2" class="fill-color" value="yellow"></button>
+              </div>
+
+              <div class="red-parent2">
+                <button id="color-red2" class="fill-color" value="red"></button>
+              </div>
+
+              <div class="blue-parent2">
+                <button id="color-blue2" class="fill-color" value="lightblue"></button>
+              </div>
+
+              <div class="green-parent2">
+                <button id="color-green2" class="fill-color" value="lightgreen"></button>
+              </div> 
+            </div>
+          </div>
+  
+          <div class="delete">
+            <div class="delete-title"><b>Delete:</b></div>
+            <div class="delete-botton-container">
+              <button class="delete-button">Delete</button>
+              <button class="delete-all-button">Delete All</button>
+              <!-- <div class="delete"> <button >Delete</button></div>
+              <div class="delete-all"> <button>Delete All</button></div>  -->
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="workspace">
+          <canvas class="workarea-canvas" width="800" height="800"></canvas>
+          <canvas class="temp-canvas" width="800" height="800"></canvas>
+          <svg class="workarea-svg" width="800" height="800">
+            <defs>
+              <filter id='f2' color-interpolation-filters="sRGB">
+                <feDropShadow dx="2" dy="2" stdDeviation="8" flood-opacity="0.6"/>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+
+      </div>
+    </div>   
+    <script src="floodfill.js"></script>
+    <script src="both.js"></script>
+    <script src="svg.js"></script>
+  </body>
+</html>
